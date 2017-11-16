@@ -1,8 +1,9 @@
-package ru.kpfu.kazanguide;
+package ru.kpfu.kazanguide.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Guide {
+public class Guide implements Serializable {
     private String name;
     private String photoLink;
     private ArrayList<Double> coordinates;

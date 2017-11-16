@@ -7,6 +7,11 @@ import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import ru.kpfu.kazanguide.fragments.AddGuideFragment;
+import ru.kpfu.kazanguide.fragments.FavoriteGuidesFragment;
+import ru.kpfu.kazanguide.fragments.GuidesListFragment;
+import ru.kpfu.kazanguide.fragments.UserFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     private FragmentTransaction fragmentTransaction;

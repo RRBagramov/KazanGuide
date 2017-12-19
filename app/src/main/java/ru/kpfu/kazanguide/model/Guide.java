@@ -7,13 +7,13 @@ import java.util.List;
 public class Guide implements Serializable {
     private String name;
     private String photoLink;
-    private List<Double> coordinates;
+    private List<String> coordinates;
     private String description;
 
     public Guide() {
     }
 
-    public Guide(String name, String photoLink, ArrayList<Double> coordinates, String description) {
+    public Guide(String name, String photoLink, ArrayList<String> coordinates, String description) {
         this.name = name;
         this.photoLink = photoLink;
         this.coordinates = coordinates;
@@ -36,11 +36,11 @@ public class Guide implements Serializable {
         this.photoLink = photoLink;
     }
 
-    public List<Double> getCoordinates() {
+    public List<String> getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(ArrayList<Double> coordinates) {
+    public void setCoordinates(ArrayList<String> coordinates) {
         this.coordinates = coordinates;
     }
 

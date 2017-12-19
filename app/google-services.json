@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "749128640980",
+    "firebase_url": "https://kazan-guide.firebaseio.com",
+    "project_id": "kazan-guide",
+    "storage_bucket": "kazan-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749128640980:android:6e52f1e98d4557b5",
+        "android_client_info": {
+          "package_name": "ru.kpfu.kazanguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749128640980-mufsi4jrjjdt646eugf6k3f7fedqejnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3cPhagGDbctQ8pl2f0M4YqtrJEfQTtoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

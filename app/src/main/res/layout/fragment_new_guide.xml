@@ -4,10 +4,57 @@
     android:layout_height="match_parent"
     tools:context="ru.kpfu.kazanguide.fragments.AddGuideFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment3" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/new_guide_photo_miniature"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/new_guide_photo_background" />
+
+        <Button
+            android:id="@+id/btn_new_guide_photo_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:text="@string/btn_new_guide_photo"
+            android:textAllCaps="false"
+            android:textColor="@color/link_btn_color" />
+
+        <EditText
+            android:id="@+id/new_guide_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/new_guide_name_hint"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/new_guide_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/new_guide_descr_hint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_new_guide_record_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:text="@string/btn_new_guide_record"
+            android:textAllCaps="false"
+            android:textColor="@color/link_btn_color" />
+
+    </LinearLayout>
 
 </FrameLayout>

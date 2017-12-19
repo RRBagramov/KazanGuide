@@ -1,9 +1,10 @@
 package ru.kpfu.kazanguide;
 
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
@@ -69,5 +70,12 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.content, guidesListFragment);
         fragmentTransaction.commit();
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
 
 }

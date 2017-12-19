@@ -18,7 +18,7 @@ public class GuideDaoWebImpl extends Application {
         super.onCreate();
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://172.20.10.2:8080")//Базовая часть адреса
+                .baseUrl("http://54.194.197.195")//Базовая часть адреса
                 .addConverterFactory(GsonConverterFactory.create()) //Конвертер, необходимый для преобразования JSON'а в объекты
                 .build();
         kazanGuideAPI = retrofit.create(KazanGuideAPI.class);

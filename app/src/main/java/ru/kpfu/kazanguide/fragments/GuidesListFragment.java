@@ -62,7 +62,7 @@ public class GuidesListFragment extends Fragment {
         CaptionedImageAdapter adapter = new CaptionedImageAdapter(guides, getActivity().getApplicationContext());
         guideRecycleView.setAdapter(adapter);
 
-        GuideDaoWebImpl.getApi().getAll().enqueue(new Callback<List<Guide>>() {
+        GuideDaoWebImpl.getApi().getAllGuides().enqueue(new Callback<List<Guide>>() {
             @Override
             public void onResponse(Call<List<Guide>> call, Response<List<Guide>> response) {
                 if (response.body() != null) {

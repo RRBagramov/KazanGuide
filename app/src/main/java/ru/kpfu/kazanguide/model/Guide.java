@@ -2,11 +2,12 @@ package ru.kpfu.kazanguide.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Guide implements Serializable {
     private String name;
     private String photoLink;
-    private ArrayList<Double> coordinates;
+    private List<Double> coordinates;
     private String description;
 
     public Guide() {
@@ -35,7 +36,7 @@ public class Guide implements Serializable {
         this.photoLink = photoLink;
     }
 
-    public ArrayList<Double> getCoordinates() {
+    public List<Double> getCoordinates() {
         return coordinates;
     }
 

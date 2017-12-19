@@ -25,7 +25,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-
+    repositories {
+        mavenCentral()
+    }
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
@@ -40,5 +42,11 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:11.0.4'
     compile 'com.google.android.gms:play-services-places:11.0.4'
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'org.slf4j:slf4j-nop:1.7.25'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.google.maps:google-maps-services:0.2.5'
+    compile 'org.slf4j:slf4j-nop:1.7.25'
     testCompile 'junit:junit:4.12'
 }
+
+apply plugin: 'com.google.gms.google-services'

@@ -115,4 +115,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="new_guide_name_hint">Название</string>
+    <string name="new_guide_descr_hint">Описание</string>
+    <string name="btn_new_guide_photo">Добавить фотографию</string>
+    <string name="btn_new_guide_record">Записать аудио</string>
 </resources>
